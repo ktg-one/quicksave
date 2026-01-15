@@ -156,13 +156,6 @@ This repository is currently under active development. The v7.0 YAML implementat
 - [ ] Integrate with Raycast Extension
 - [ ] Implement Buffer Valet and create a literal Buffer of Thought.
 
-## Overview
-LLM context windows are finite and platform "compaction" is lossy. **KTG-CEP** uses PDL to compress conversations into machine-optimized packets that achieve a crystallization point of **0.15 entity/token**.
-
-## Core Architecture
-- **PDL (Progressive Density Layering):** Preserves Knowledge (L1), Relational (L2), Contextual (L3), and Meta-cognitive (L4) layers.
-- **Anti-Injection Design:** Uses 5 trust signals (Provenance, Mediation, Permission, Fact-framing, Non-authority) to ensure receiving models accept context without rejection.
-
 ---
 
 ## Author & License
