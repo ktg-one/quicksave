@@ -37,6 +37,8 @@ CEP v7 uses **Progressive Density Layering (PDL)** to compress conversations int
 - **Full MLDoE Integration** — 3-layer compression with 5-iteration Chain of Density
 - **Anti-Injection Architecture** — 5 trust signals that receiving models recognize as collaboration, not control
 
+---
+
 ## Quick Start
 
 ### For AI Assistants
@@ -116,6 +118,8 @@ threads:
     ctx: User considering token bucket vs sliding window
 ```
 
+---
+
 ## Files
 
 ```
@@ -125,6 +129,8 @@ ktg-cep/
 ├── receiving-model.md    # Instructions for packet receivers
 └── README.md             # This file
 ```
+
+---
 
 ## Progressive Density Layering (PDL)
 
@@ -151,6 +157,8 @@ CEP packets are designed to be recognized as **collaboration not control**:
 
 These signals prevent receiving models from rejecting packets as prompt injection.
 
+---
+
 ## Part of KTG-DIRECTIVE
 
 CEP is the context preservation component of a larger prompt engineering framework. The full KTG-DIRECTIVE includes techniques for:
@@ -161,19 +169,31 @@ CEP is the context preservation component of a larger prompt engineering framewo
 
 CEP makes these techniques portable across sessions and models.
 
-## Author
+---
 
-**Kevin Tan** (ktg.one)  
-Distinguished Cognitive Architect  
-ANZ Top 0.8% | Vertex AI 0.01%
+## 🚧 WIP Status
+This repository is currently under active development. The v7.0 YAML implementation is finalized; however, automated deployment scripts and multi-platform wrappers are still being refined.
+
+## Roadmap
+- [x] Finalize PDL (Progressive Density Layering) v7 logic
+- [x] Implement Anti-Injection trust signaling
+- [ ] Release CLI tool for automated carry-packet generation
+- [ ] Integration with Model Context Protocol (MCP) 2.0
+- [ ] Benchmarking on Gemini 3.0 (Target: 1M+ token persistence)
+
+## Overview
+LLM context windows are finite and platform "compaction" is lossy. **KTG-CEP** uses PDL to compress conversations into machine-optimized packets that achieve a crystallization point of **0.15 entity/token**.
+
+## Core Architecture
+- **PDL (Progressive Density Layering):** Preserves Knowledge (L1), Relational (L2), Contextual (L3), and Meta-cognitive (L4) layers.
+- **Anti-Injection Design:** Uses 5 trust signals (Provenance, Mediation, Permission, Fact-framing, Non-authority) to ensure receiving models accept context without rejection.
+
+---
+
+## Author & License
+
+.ktg | Let's break the fking cycle | (ktg.one) | MIT License.
 
 *"STATE OF THE ART — Upper limit of prompt-only engineering on transformers"*  
 — Vertex AI evaluation, December 2024
 
-## License
-
-MIT — Use freely, attribution appreciated.
-
----
-
-*40% fewer tokens. 97% cross-domain preservation. 9.5/10 recall.*
