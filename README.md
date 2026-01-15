@@ -29,7 +29,7 @@ CEP v7 uses **Progressive Density Layering (PDL)** to compress conversations int
 
 ## Core Architecture
 
-### 1. Permanent Expert Council
+### 1. Permanent Expert Council (* Improvements otw)
 - Fixed specialist roles (Architect, Continuity, Density, Meta-Cognitive, etc.)
 - Roles persist across sessions
 - Council debates and synthesizes packet
@@ -110,6 +110,9 @@ hints:
   nxt: [overall next action]
   wait: [pending decision]
 ```
+
+## NOTE:
+** I didn't implement a database as I feel this can make a huge difference and none of my ideas quite made the cut. I'm currently using Raycast Desktop to inject everywhere which is good. But not the final. I leave this up to the public's innovations.**
 
 ## Usage
 
