@@ -199,15 +199,23 @@ This repository is currently under active development. The v7.0 YAML implementat
 - [x] Finalize PDL (Progressive Density Layering) v7 logic
 - [x] Implement Anti-Injection trust signaling
 - [x] Formal arViX submission. Waiting on endorsement.
+- [ ] Knowledge base for experts
 - [ ] Next: Implement MAGMA-style dual-stream memory (Asynchronous Consolidation).
 - [ ] Integrate with Raycast Extension
 - [ ] Implement Buffer Valet and create a literal Buffer of Thought.
 
 ---
 
+## Research Papers
+** Pending Endorsement **
+
+- [Papers directory](https://github.com/ktg-one/context-extension-papers.git))
+
+---
+
 ## Author & License
 
-.ktg | Let's break the fking cycle 
+https://ktg.one | Let's break the fking cycle 
 
 *"STATE OF THE ART — Upper limit of prompt-only engineering on transformers"*  
 — Vertex AI evaluation, December 2025
