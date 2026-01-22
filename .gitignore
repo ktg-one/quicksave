@@ -1,3 +1,6 @@
 .cursor
 openmemory.mdc
 openmemory.md
+
+# OpenMemory - IDE/Assistant specific rules
+.cursor\rules\openmemory.mdc
