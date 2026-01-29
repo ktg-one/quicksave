@@ -1,6 +1,8 @@
 # Changelog
 
 All notable changes to CEP/Quicksave will be documented in this file.
+## 2026-01-29
+- ##Found I was constantly reminding the models to read the reference files. Apologies to those who didn't realize. It's now in-built into the md.
 
 ## [9.1] - 2026-01-27
 
