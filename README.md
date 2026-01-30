@@ -30,6 +30,12 @@ Quicksave v9.1 creates **carry-packets** using:
 - **System 2 Attention (S2A)** — Noise filtering for LLM efficiency
 - **Multi-Layer Density of Experts (MLDoE)** — 5-Embodied Chain of Density
 
+## On top of:
+- Universal Self Consistency
+- Attentive Reasoning Queries
+- Chain of Verification
+- Confidence scoring
+
 **Target:** 0.15-0.17 entity/token — the density where LLMs achieve optimal recall.
 
 ## Benchmarks
